@@ -1,0 +1,637 @@
+body{
+background:url("images/back5.jpg") no-repeat;
+background-size: 100% 165%;
+
+margin:0px;
+padding:0px;
+height: ;
+}
+#headline{
+	color:rgb(254,203,19);
+	font-family: Levenim MT;
+	font-size: 45px;
+	font-weight: bolder;
+	border-bottom: 3px ridge white;
+}
+#center{
+	margin-top: 5px;
+	width: 100%;
+	padding-top:250px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.78);
+}
+#menu_2{
+	color:rgb(254,203,19);
+	font-family: Kozuka Gothic Pro;
+	font-size: 50px;
+	margin-left:37%;
+	width: 340px;
+	background-color: rgba(255,255,255,0.8);
+	padding-left: 40px;
+	}
+#menu_2:hover{
+	cursor: pointer;
+	color:#3f79cf;	
+}
+#all{
+	margin:0px;
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color: rgba(26,26,26,0.8);
+	display:none;
+}
+#sign_line{
+	position: fixed;
+	margin-top: -330px;
+	margin-left: 34%;
+	width: 415px;
+	height: 440px;
+	display: none;
+	font-family: MS Reference Sans;
+	font-size: 19px;
+	border-radius: 5px;
+	color: rgb(9,224,191);
+	padding-top: 20px;
+	padding-left: 25px;
+	background: rgba(19,29,30,1);
+}
+#links{
+	display: none;
+	margin-left: 120px;
+	margin-top: -55px;
+	width: 260px;
+	height: 200px;
+	background-color:;
+	padding-left: 25px;
+	font-size: 38px;
+	font-family: IrisUPC;
+	border-radius: opx;
+	border:2px solid white;
+	padding-top: 5px;
+	border-bottom-right-radius: 25px;
+}
+#links a{
+	text-decoration: none;
+	color: white;
+	font-family: 25px;
+}
+#logo_sdu{
+	padding-left: 10px;
+	width: 10%;
+	border-bottom-right-radius:70px;
+	border-bottom-left-radius: 70px;
+	margin-top: -10px;
+	margin-left: 100px;
+	height: 180px;
+	background-color: white;
+}
+#main_menuler {
+	list-style: none;
+	margin-left: 500px;
+	margin-top: -120px;
+	}
+#main_menuler span{
+	background-color: rgba(0,0,0,0.8);
+	margin-left: 50px;
+	font-family: MelodBold;
+	font-size: 25px;
+	color:white;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#main_menuler span:hover{
+	text-decoration: underline;
+	color:#d9f929;
+}
+#center_line{
+	width: 55.5%;
+	padding: 10px;
+	margin-left: 23%;
+	margin-top: 230px;
+	color: #d9f929;
+	background-color: rgba(0,0,0,0.8);
+	font-family: Valken;
+	font-size: 58px;
+}
+#links a:hover{
+	background-color: white;
+	color:black;
+	font-weight: bolder;
+	padding-left: 30px;
+	padding-right: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#music{
+	width: 305px;
+	background: #d8d344;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 240px;
+	font-family: Levenim MT;
+	font-size: 15px;
+	font-weight: bold;
+	color:#3a6bce;
+	position: fixed;	
+	margin-top: -180px;
+	margin-left: 50px;
+	border-radius: 8px;
+	display: none;
+
+}
+#all_things{
+	width: 1400px;
+	height: 350px;
+	margin-top: -650px;
+	margin-left: 50px;
+}
+#all_things #picture{
+	height: 182px;
+}
+#all_things #picture ul li{
+	margin-left:5px;
+	cursor: pointer;
+	width: 100px;
+	height: 160px;
+	margin-top: 10px;
+	list-style: none;
+	float: left;
+}
+#all_things #picture ul li:hover{
+	
+}
+#all_things #picture ul li img:hover{
+	
+}
+
+
+
+#calc{
+	background-color: rgba(242,231,231,0.8);
+	width: 190px;
+	margin-top: 10px;
+	margin-left: 45px;
+	padding-top: 10px;
+	padding-left: 15px;
+	height: 240px;
+
+}
+#calc button{
+	background-color: rgb(54,65,58);
+	color: white;
+	font-weight: bolder;
+	border:0px;
+	margin-top: 5px;
+		width: 40px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+#calc input[type="text"]{
+	width:170px;
+	height: 25px;
+	font-size: 23px;
+}
+#class12{
+	margin-top: -250px;
+	margin-left: 255px;
+}
+#note{
+	width: 260px;
+	height: 250px;
+    background-color: rgba(242,231,231,0.8);
+	margin-left: 675px;
+	margin-top: -255px;
+	font-family: Levenim MT;
+	font-size: 18px;
+	padding-left: 50px;
+	color: rgb(34,43,83);
+}
+#notes_wq{
+	margin-top: 0px;
+	margin-left: -40px;
+	margin-right: 20px;
+}
+#note1{
+	float: right;
+	margin-right:-50px; 
+	margin-top: -375px;
+}
+#real_cal table tr td{
+	width: 155px;
+	height: 90px;
+	text-align: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	float: left;
+	color:white;
+	font-size: 18px;
+	font-family: Levenim MT;
+}
+#all_things #real_cal{
+	margin-top: -200px;
+	margin-left: 20px;
+}
+
+#day{
+	margin-left: 940px;
+	margin-top: -255px;
+}
+#real_cal{
+	width: 1120px;padding-top: 10px;
+	height: 630px;
+}
+
+.add{
+	float:right;
+}
+.add img{
+	cursor: pointer;
+}
+#add_card{
+	width: 340px;
+	height: 225px;
+	padding: -20px;
+	border-radius: 6px;
+	margin-left: 400px;
+	margin-top: 150px;
+	font-family: Levenim MT;
+	font-size: 25px;
+	padding-left: 13px;
+	color:rgb(121,142,155);
+	display: none;
+	position: fixed;
+	background-color: rgb(231,222,234);
+	border-top: 30px solid rgb(52,76,85);
+}
+#title_id{
+	margin-top:10px; 
+	width: 243px;
+	height: 25px;
+	padding: 4px;
+	color:rgb(121,142,155);
+	font-family: Levenim MT;
+	font-size: 18px;
+}
+#title_id:focus{
+	outline-color: rgb(201,237,41);
+}
+#text_id{
+	width: 302px;
+	height: 80px;
+		padding: 4px;
+	color:rgb(121,142,155);
+	font-family: Levenim MT;
+	font-size: 18px;
+
+}
+#text_id:focus{
+	outline-color: rgb(201,237,41);
+}
+#button_id{
+	width: 90px;
+	height: 30px;
+	color:rgb(121,142,155);
+	font-family: Levenim MT;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+#button_id:focus{
+	outline-color: rgb(201,237,41);
+}`
+.add input[type='image']:focus{
+	outline:none ;
+}
+#hide_id{
+	width: 35px;
+	height: 30px;
+	color:rgb(121,142,155);
+	font-family: Levenim MT;
+	font-size: 18px;
+	text-align: center;
+	float: right;
+	margin-right: 27px;
+	cursor: inherit;
+	padding: 5px;
+	margin-top: 3px;
+}
+#close{
+	float: right;
+	width: 30px;
+	font-family:Levenim MT;
+	font-size: 18px; 
+	color:rgb(121,142,155);
+	height: 30px;
+	cursor: pointer;
+	margin-bottom: -20px;
+	margin-top: -30px;
+}
+#note_nup{
+	float: left;
+	margin-left: 10px;
+}
+.music90{
+width: 22px;
+height: 20px;
+padding-top: 4px;
+margin-top: 4px;
+}
+.music90:hover{
+		color:rgb(85,135,158);
+}
+input[type="image"]{
+	font-family: Levenim MT;
+	font-size: 12px; 
+	color: white;
+	padding: 2px;
+}
+input[type='image']:focus{
+	outline: none;
+}
+#music_name{
+	width: 270px;
+	padding:5px;
+	text-align: center;
+	color:rgb(34,35,55);
+	font-family: Levenim MT;
+	font-size: 12px; 
+}
+#for_pic{
+	width: 385px;
+	height: 500px;
+	padding-left: 50px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	position: fixed;
+	margin-top: -320px;
+	margin-left: 36%;
+	display: none;
+	background-color: rgba(68,68,77,0.89);
+}
+#close_pic1{
+	width:30px;
+	float: right;
+	height:30px;
+	margin-right: -5px;
+}
+#changing_pic{
+	margin-top: -14px;
+}
+#semerka{
+	font-size: 13px;
+	margin-left: 2px;
+}
+#real_cal table tr td {
+	font-family: Levenim MT;
+	font-size: 10px;
+}
+#left0{
+	float: left;
+	margin-left: -50px;
+	cursor: pointer;
+	margin-top:215px;
+}
+#right0{
+	float: right;
+	margin-right: -40px;
+	margin-top:215px;
+	cursor: pointer;
+}
+#sign_line table tr td{
+	text-align: center;	
+	padding: 3px;
+}
+#sign_line table tr td input[type="text"],input[type="password"]{
+	font-family: Levenim MT;
+	font-size: 21px;
+	width: 250px;
+	vertical-align: center;
+	height: 35px;
+	font-weight: bolder;
+	border:0px;
+	color: rgb(19,29,30);
+	padding:1px;
+	margin-top: 5px;
+	margin-left: 15px;
+	padding-left: 5px;
+	border-radius: 4px;
+	background-color: rgb(161,178,179);
+
+}
+table tr td input[type="text"],input[type="password"]:focus{
+outline: none;
+}
+#log_line table tr td{
+	text-align: center;	
+	padding: 3px;
+	padding-top: 30px;
+	color: rgb(9,224,191);
+}
+#log_line table tr td input[type="text"],input[type="password"]{
+	font-family: Levenim MT;
+	font-size: 21px;
+	width: 250px;
+	vertical-align: center;
+	height: 35px;
+	font-weight: bolder;
+	border:0px;
+	color: rgb(19,29,30);
+	padding:1px;
+	margin-left: 15px;
+	padding-left: 5px;
+	border-radius: 4px;
+	background-color: rgb(161,178,179);
+}
+table tr td input[type="text"],input[type="password"]:focus{
+outline: none;
+}
+
+#che{
+	width: 60px;
+	height: 30px;
+	background-color:rgb(29,113,41);
+	border-radius: 25px;
+	border: 2px inset rgb(49,49,49);
+		cursor:pointer;
+}
+#che #round{
+	width: 30px;
+	float:left;
+	height:28px;
+	margin-left: 3px;
+	cursor:pointer;
+	margin-top: 1px;
+	border:0px;
+	border-radius: 50%;
+	background: rgb(204,203,201);
+	}
+#round:focus{
+outline:none;
+}
+
+#sex_line{
+	margin-left:29px;
+	font-size: 20px;
+	text-shadow:3px -1px 5px black;
+	padding-top: 5px;
+	font-family: MS Reference Sans;
+	
+
+}
+#fem{
+	font-size: 20px;
+}
+#game{
+	width: 99%;
+	height: 70px;
+	background-color: red;
+	position: fixed;
+}
+.close_id{
+	float:left;
+	font-family: Levenim MT;
+	font-size: 20px;
+	padding-top: 5px;
+	margin-left: 205px;
+	cursor: pointer;
+}
+#sign_id{
+	float:right;
+	margin-right: 140px;
+	margin-top: 15px;
+	font-family: Levenim MT;
+	background-color: rgb(245,246,247);
+	width: 150px;
+	height: 45px;
+	padding: 8px;
+	font-size: 15px;
+	cursor: pointer;
+	color: rgb(19,29,30);
+	border-radius: 5px;
+}
+
+#log_line{
+	position: fixed;
+	margin-top: -300px;
+	margin-left: 34%;
+	width: 400px;
+	height: 350px;
+	display: none;
+	font-family: MS Reference Sans;
+	font-size: 19px;
+	border-radius: 5px;
+	color: #1b4361;
+	padding-top: 20px;
+	padding-left: 25px;
+	background: rgba(19,29,30,1);
+}
+#sign_page{
+ 	float:left;
+	margin-top: 35px;
+	font-family: Levenim MT;
+	background-color: #4384b5;
+	width: 90px;
+	margin-left: 15px;
+	padding: 8px;
+	font-size: 15px;
+	color: rgb(254,203,19);
+	border-radius: 5px;
+		cursor: pointer;
+
+}
+#login_page{
+	float:left;
+	margin-top: 35px;
+	font-family: Levenim MT;
+	background-color: #4384b5;
+	width: 120px;
+	margin-left: 15px;
+	padding: 3px;
+	font-size: 15px;
+	color: rgb(254,203,19);
+	border-radius: 5px;
+		cursor: pointer;
+
+
+}
+#login_id{
+	float:right;
+	margin-right: 140px;
+	margin-top: 35px;
+	font-family: Levenim MT;
+	background-color: rgb(245,246,247);
+	width: 150px;
+	height: 45px;
+	padding: 8px;
+	font-size: 15px;
+	cursor: pointer;
+	color: rgb(19,29,30);
+	border-radius: 5px;
+}
+#left_menu{
+	margin-top: -240px;
+	position: fixed;
+	background-color: #19356f;
+}
+
+#message_b{
+	width: 400px;
+	height: 30px;
+	padding: 5px;
+	display: none;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family:  Levenim MT;
+	background-color: #cc264d;
+	color: white;
+}
+.usti{
+	margin-left: -20px;
+	margin-top: -20px;
+	text-align: center;
+	padding: 5px;
+	color: rgb(19,29,30);
+	font-family: Levenim MT;;
+	font-size: 20px;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	height: 35px;
+	background-color: #09e0bf;
+}
+
+.asti{
+	margin-left: -25px;
+	text-align: center;
+	padding: 5px;
+	margin-top:15px;
+	padding-top: 10px;
+	color: rgb(19,29,30);	
+	font-family: Levenim MT;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	height: 40px;
+	background-color: #09e0bf;
+}
+#reg_link{
+	margin-left: -50px;
+	float: right;
+	margin-right: 15px;
+	padding: 5px;
+	cursor: pointer;
+
+margin-top: -5px;
+color:rgb(9,224,191);background-color: rgb(19,29,30);
+}
+#log_link{
+	float: left;
+	margin-left: 15px;
+	padding: 5px;
+	cursor: pointer;
+	margin-top: -5px;
+	color:rgb(9,224,191);background-color: rgb(19,29,30);
+}
